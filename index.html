@@ -4,7 +4,23 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="color-scheme" content="dark light" />
+
     <title>Сложно сосредоточиться</title>
+
+    <!-- Фавиконки -->
+    <link rel="icon" href="./images/favicon.ico" sizes="32x32" />
+    <link rel="icon" href="./images/favicon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="./images/mobile-icon.png" />
+    
+    <!-- Стили -->
+    <link rel="stylesheet" href="./fonts/fonts.css" />
+    <link rel="stylesheet" href="./styles/variables.css" />
+    <link rel="stylesheet" href="./styles/globals.css" />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="stylesheet" href="./styles/dark.css" />
+    <link rel="stylesheet" href="./styles/light.css" />
+
     <script src="./scripts/script.js"></script>
   </head>
   <body class="page">
@@ -35,6 +51,123 @@
           </li>
         </ul>
       </nav>
+      <h1 class="title header__title">СЛОЖНО<br />СОСРЕДОТОЧИТЬСЯ</h1>
+
+        <p class="title-decor header__description">
+          На этой странице можно узнать, почему так сложно сосредоточиться и что
+          с этим делать
+        </p>
     </header>
+
+    <main class="content">
+      <section class="section section_cards">
+        <h2 class="section__title">Почему так сложно сосредоточиться?</h2>
+
+        <div class="section__cards-wrapper">
+          <article class="card">
+            <h3 class="card__title title-decor">Недостаток сна</h3>
+            <p class="card__text">
+              Когда вы не высыпаетесь, мозг не может нормально обрабатывать
+              информацию. Внимание рассеивается, а концентрация падает.
+            </p>
+          </article>
+
+          <article class="card">
+            <h3 class="card__title title-decor">Многозадачность</h3>
+            <p class="card__text">
+              Попытка делать несколько дел одновременно перегружает мозг.
+              Переключение между задачами отнимает ресурс и снижает
+              продуктивность.
+            </p>
+          </article>
+
+          <article class="card">
+            <h3 class="card__title title-decor">Информационный шум</h3>
+            <p class="card__text">
+              Уведомления, соцсети и новости постоянно отвлекают. Мозгу сложно
+              вернуться к прежней задаче, и он тратит время на «перезапуск».
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section section_advice">
+        <h2 class="section__title">Как концентрироваться лучше?</h2>
+
+        <div class="section__cards-wrapper">
+          <article class="card">
+            <h3 class="card__title card__title_regular title-decor">
+              Спите достаточно
+            </h3>
+            <p class="card__text">
+              Здоровый сон — основа внимания. Старайтесь спать 7–8 часов и
+              ложиться в одно и то же время.
+            </p>
+          </article>
+
+          <article class="card">
+            <h3 class="card__title card__title_regular title-decor">
+              Делайте перерывы
+            </h3>
+            <p class="card__text">
+              Работайте по методу Помодоро: 25 минут концентрации, 5 минут
+              отдыха. Это помогает мозгу восстанавливаться.
+            </p>
+          </article>
+
+          <article class="card">
+            <h3 class="card__title card__title_regular title-decor">
+              Убирайте отвлечения
+            </h3>
+            <p class="card__text">
+              Отключите уведомления, уберите телефон, используйте
+              <a class="card__link" href="#" target="_blank" rel="noreferrer"
+                >специальные приложения</a
+              >
+              для блокировки отвлекающих сайтов.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="gallery">
+        <h2 class="section__title visually-hidden">Галерея</h2>
+        <img
+          class="gallery__image gallery__image_sunset"
+          src="./images/sunset.png"
+          alt="Закат над морем"
+          loading="lazy"
+        />
+        <img
+          class="gallery__image gallery__image_ice-cream"
+          src="./images/ice-cream.png"
+          alt="Мороженое в вафельном рожке"
+          loading="lazy"
+        />
+        <img
+          class="gallery__image gallery__image_tape"
+          src="./images/tape.png"
+          alt="Клейкая лента"
+          loading="lazy"
+        />
+        <img
+          class="gallery__image gallery__image_books"
+          src="./images/books.png"
+          alt="Стопка книг"
+          loading="lazy"
+        />
+        <img
+          class="gallery__image gallery__image_street"
+          src="./images/street.png"
+          alt="Улица города"
+          loading="lazy"
+        />
+      </section>
+    </main>
+
+    <footer class="footer decorated-zone">
+      <h2 class="title footer__title">СЛОЖНО<br />СОСРЕДОТОЧИТЬСЯ</h2>
+    </footer>
+
   </body>
 </html>
